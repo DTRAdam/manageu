@@ -1,0 +1,32 @@
+@media (min-width:1024px) and (max-width:1920px) {
+    .container {
+        height: 80vh !important;
+        background-position: 0 -240px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width:480px) {
+    .container {
+        height: 40vh !important;
+        background-position: -20px 0px;
+        width: 50vh !important;
+    }
+
+    .addtask {
+        padding: 5.4px !important;
+
+
+    }
+
+    .activehead {
+        font-size: 1.3rem !important;
+
+    }
+
+    .completedhead {
+        font-size: 1.3rem !important;
+    }
+
+
+}

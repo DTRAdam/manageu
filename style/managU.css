@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212529;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.container {
+    padding: 20px;
+    border-radius: 15px;
+    height: 60%;
+    background-image: url(/images/secondNotePad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -130px;
+    box-shadow: 0px 2px 15px white;
+
+
+}
+
+.manageuspan {
+    background-color: rgba(255, 255, 255, 0.458);
+    backdrop-filter: blur(500px);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+.descriptionInput {
+    background-color: #ffffff93;
+}
+
+label {
+    color: black;
+}
