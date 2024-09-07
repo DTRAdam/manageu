@@ -67,7 +67,11 @@ window.deleteTask = function deleteTask(id) {
 
 window.updateTaskDescription = function updateTaskDescription(id, description) {
     let update = prompt(`What is the new description`, description)
-    manager.updateTaskdescription(update, id)
+    if (update.length > 20) {
+        alert(`Description need to be only 20 charecters`)
+    } else {
+        manager.updateTaskdescription(update, id)
+    }
     showTasks()
 
 }
